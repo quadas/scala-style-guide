@@ -1,4 +1,4 @@
-Vpon's Scala Style Guidelines
+Quadas's Scala Style Guidelines
 =================
 
 This repository contains style guidelines for writing Scala code at Vpon. The guidelines are based on [Paypal's style](https://github.com/paypal/scala-style-guide/). Here are our goals for style
