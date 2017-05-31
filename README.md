@@ -1,7 +1,7 @@
 Quadas's Scala Style Guidelines
 =================
 
-This repository contains style guidelines for writing Scala code at Vpon. The guidelines are based on [Paypal's style](https://github.com/paypal/scala-style-guide/). Here are our goals for style
+This repository contains style guidelines for writing Scala code at Quadas. The guidelines are based on [Paypal's style](https://github.com/paypal/scala-style-guide/). Here are our goals for style
 guides in this repository:
 
 1. Our style guidelines should be clear.
@@ -47,12 +47,12 @@ val httpIoJsonToXmlParser = new HttpIoJsonToXmlParser()
 Package names should be all lowercase with no underscores.
 
 File names for package objects must match the most specific name in the package.
-For example, for the `com.vpon.mypackage` package object, the file
+For example, for the `com.quadas.mypackage` package object, the file
 should be named `mypackage.scala` and the file should be structured like this:
 
 
 ```scala
-package com.vpon
+package com.quadas
 
 package object mypackage {
   //...
@@ -126,7 +126,7 @@ akka
 spray
 all other imports
 ___blank line___
-com.vpon
+com.quadas
 ```
 
 You should also regularly run IntelliJ's Optimize Imports (Edit > Optimize Imports) against
